@@ -1,5 +1,17 @@
 Rails.application.routes.draw do
 
+  get 'classroom/index'
+
+  get 'classroom/new'
+
+  get 'classroom/create'
+
+  get 'classroom/edit'
+
+  get 'classroom/update'
+
+  get 'classroom/destroy'
+
   devise_for :users
 	root to: 'home#index'
 
