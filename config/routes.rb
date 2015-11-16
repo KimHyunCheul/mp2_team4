@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get 'classroom/index'
+	get 'classroom/update_classroom'
 
   get 'classroom/new'
 
